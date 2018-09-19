@@ -1,14 +1,14 @@
-QT += widgets core gui
+QT += widgets
 
 SOURCES = main.cpp \
     button.cpp \
-    jogo.cpp \
     pixmap.cpp \
     view.cpp
 
 RESOURCES = slidingpuzzle.qrc
 # install
-TARGET = app
+target.path = /home/guilherme/Projects/qt-projects/slidingpuzzle
+INSTALLS += target
 
 HEADERS += \
-    resources.h jogo.h
+    resources.h
